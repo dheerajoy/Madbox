@@ -10,9 +10,9 @@ import "../ourstory/ourstory.scss"
           <p>Our <br></br>Story</p>  
         </div>
         <div>
-          {/* <div data-aos="zoom-in" data-aos-duration="900"> */}
+          
           <img id="ourStory" src={image}/>
-          {/* </div> */}
+          
         </div>
       </div>
     )

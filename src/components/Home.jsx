@@ -33,7 +33,7 @@ const Home = () => {
     </Headroom>
 
     <div data-aos="zoom-in" className='home1'>
-        <video src={video} autoPlay loop muted />
+        <video id='firstVid' src={video} autoPlay loop muted />
         <div className="vtext">
           <span>Unleash Your Creativity!</span>
         </div>
@@ -41,11 +41,11 @@ const Home = () => {
 
         
     <div id='section1' className="career">
-        <div data-aos="fade-up"  data-aos-duration="500"  className="bigtext">
+        <div data-aos="fade-up"  data-aos-duration="200"  className="bigtext">
             <p> A Casually</p>
             <p> Mad Career</p>
         </div>
-        <div data-aos="fade-up"   data-aos-duration="700" className="smalltext">
+        <div data-aos="fade-up"   data-aos-duration="300" className="smalltext">
             <p>Come and join a talented team of passionate game makers.</p>
         </div>
     </div>

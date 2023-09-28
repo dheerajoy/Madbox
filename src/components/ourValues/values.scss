@@ -1,21 +1,40 @@
-
-
 .values{
-    margin:2%;
-    
+    width: 100%;
+    margin-top: 10%;
 }
 
 
-.firstcontent{
-    display: flex;
+// .valuesPics{
+   
+//     border: 2px solid red;
+// }
 
+
+.rightValue{
+    width: 620px;
+    height: 620px;
+}
+
+.leftValue{
+    width: 620px;
+    height: 620px;
+}
+
+
+
+
+
+
+.firstcontent,.thirdcontent{
+    display: flex;
+    margin-bottom: 5%;
+    padding-right: 5%;
     
-    .first{
-        padding-top: 18%;
-        padding-left: 8%;
-        padding-right: 8%;
+    .leftText{
+        padding: 25px;
+        margin: 15% 8% 0 8%;
     
-        >h1{
+        >#first_h1{
             font-family: 'Work sans';
             font-size: 58px;
             line-height: 1;
@@ -24,69 +43,7 @@
             -webkit-text-fill-color: transparent !important;
         }
 
-        >p{
-            font-family: "Work Sans";
-            font-size: 18px;
-            margin-top: 10%;
-            letter-spacing: 1px;
-
-        }
-    }
-    .rightimg{
-        width: 650px;
-        height: 650px;
-        padding-top: 20%;
-        
-    }
-
-}
-
-.secondcontent{
-    display: flex;
-    
-    .rightText{
-        padding-top: 25%;
-        padding-left: 8%;
-        padding-right: 8%;
-
-        >h1{
-            font-family: 'Work sans';
-            font-size: 58px;
-            line-height: 1;
-            background: linear-gradient(to right, #A776FF 0%, #49B7FF 100%) ;
-            background-clip: text ;
-            -webkit-text-fill-color: transparent !important;
-        }
-
-        >p{
-            font-family: "Work Sans";
-            font-size: 18px;
-            margin-top: 10%;
-            letter-spacing: 1px;
-
-        }
-    }
-    .leftimg{
-        width: 650px;
-        height: 650px;
-        padding-top: 20%;
-    }
-    
-  
-
-
-}
-
-.thirdcontent{
-    display: flex;
-    
-    
-    .third{
-        padding-top: 15%;
-        padding-left: 7%;
-        padding-right: 7%;
-
-        >h1{
+        >#third_h1{
             font-family: 'Work sans';
             font-size: 58px;
             line-height: 1;
@@ -103,24 +60,33 @@
 
         }
     }
-    .rightimg{
-        width: 650px;
-        height: 650px;
-        padding-top: 20%;
-    }
+    
     
 }
 
-.fourthcontent{
+
+
+
+.secondcontent,.fourthcontent{
     display: flex;
-    
+    margin-bottom: 5%;
+    padding-left: 5%;
+
     
     .rightText{
-        padding-top: 15%;
-        padding-left: 8%;
-        padding-right: 8%;
+        padding: 25px;
+        margin: 15% 8% 0 8%;
 
-        >h1{
+
+        >#second_h1{
+            font-family: 'Work sans';
+            font-size: 58px;
+            line-height: 1;
+            background: linear-gradient(to right, #A776FF 0%, #49B7FF 100%) ;
+            background-clip: text ;
+            -webkit-text-fill-color: transparent !important;
+        }
+        >#fourth_h1{
             font-family: 'Work sans';
             font-size: 58px;
             line-height: 1;
@@ -137,10 +103,7 @@
 
         }
     }
-    .leftimg{
-        width: 650px;
-        height: 650px;
-        padding-top: 20%;
-    }
+
 
 }
+

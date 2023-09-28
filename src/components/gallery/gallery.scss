@@ -1,20 +1,18 @@
 .gallery{
-    padding-top: 8%;
-    display: block;
-    margin-left: 6%;
-    width: 80%;
+    padding:0 10%;
+    // width: 100%;
 }
 
 .firstrow{
     display: flex;
-    gap: 1.7rem;
-    margin-left: 8%;
+    justify-content: center;
+    gap: 1.5rem;
 
 }
 
 #pic1{
     width: 306px;
-    height: auto; /* Keep the aspect ratio */
+    height: auto; 
     border-radius: 25px;
 }
 
@@ -32,9 +30,10 @@
 
 .secondrow{
     display: flex;
+    justify-content: center;
     gap: 1.5rem;
-    padding-top: 2.3%;
-    margin-left:8%;
+    padding-top: 1.5rem;
+    // margin-left:8%;
     margin-bottom: 6%;
 }
 

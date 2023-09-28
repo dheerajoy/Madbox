@@ -9,6 +9,7 @@ import logo from './logo/logo1.jpeg'
 
 const Header = () => {
   return (
+    <div>
     <nav>
         <img src={logo} />
         <main>
@@ -29,6 +30,7 @@ const Header = () => {
         </ul>
         </main>
     </nav>
+    </div>
   )
 }
 
