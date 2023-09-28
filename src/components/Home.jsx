@@ -46,7 +46,7 @@ const Home = () => {
             <p> Mad Career</p>
         </div>
         <div data-aos="fade-up"   data-aos-duration="700" className="smalltext">
-            <p>Come and join a talented team of passionate game makers.</p>
+            <p>Hi Come and join a talented team of passionate game makers.</p>
         </div>
     </div>
 
