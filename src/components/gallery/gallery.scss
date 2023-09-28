@@ -1,0 +1,45 @@
+.gallery{
+    padding-top: 8%;
+    display: block;
+    margin-left: 6%;
+    width: 80%;
+}
+
+.firstrow{
+    display: flex;
+    gap: 1.7rem;
+    margin-left: 8%;
+
+}
+
+#pic1{
+    width: 306px;
+    height: auto; /* Keep the aspect ratio */
+    border-radius: 25px;
+}
+
+.video-container {
+    max-width: 650px; 
+  }
+
+#galleryvideo{
+  
+    width: 650px;
+    max-width: 580px;
+    max-height: 430px;
+    border-radius: 25px;
+}
+
+.secondrow{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 2.3%;
+    margin-left:8%;
+    margin-bottom: 6%;
+}
+
+.secondRowPics{
+    width: 310px;
+    height: 310px;
+    border-radius: 20px;
+}

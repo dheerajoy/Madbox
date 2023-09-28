@@ -1,0 +1,143 @@
+
+.video-Carousel {
+  width: 95%;
+  padding-left: 10px;
+  height: 120%;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 11%;
+}
+
+.card-vid {
+  background: white;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-top > img {
+  width: 90%;
+  object-fit: cover;
+}
+
+.card-bottom {
+  margin: 10px 10px;
+  h3{
+    font-size: 1.7rem;
+    padding: 20px; 
+    color: black;
+    line-height: 1.1em;
+    padding-bottom: 30px;
+  }
+
+  p{
+    line-height: 18px;
+  }
+
+  #names{
+    padding-left: 20px;
+
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .role{
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+     
+  }
+}
+
+
+
+.name-adrien {
+  background-image: linear-gradient(to right, #38b7ff -5%, #ad00ff 100%);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+.name-arthur {
+  background-image: linear-gradient(to right, #ff3891 -5%, #ffbf04 100%);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+.name-ossama {
+  background-image: linear-gradient(to right, #00c2ff -5%, #4ff29f 100%);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+.name-xixi {
+  background-image: linear-gradient(to right, #38b7ff -5%, #ad00ff 100%);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+.name-simon {
+  background-image: linear-gradient(to right, #38b7ff -5%, #ad00ff 100%);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+.name-thomas {
+  background-image: linear-gradient(to right, #38b7ff -5%, #ad00ff 100%);
+  color: transparent;
+  -webkit-background-clip: text; 
+  background-clip: text;
+}
+
+
+
+
+// Reduce opacity for non-focused cards //
+.card-vid:not(.focused-card):not(.first-card) .card-bottom h3,
+.card-vid:not(.focused-card):not(.first-card) .card-bottom p {
+  opacity: 0.2;
+}
+
+// Optional: Keep opacity at 1 for focused cards //
+.card-vid.focused-card .card-bottom h3,
+.card-vid.focused-card .card-bottom p {
+  opacity: 1;
+}
+
+// Apply reduced opacity to h3 and .role of the first card when it's not focused //
+.card-vid.first-card h3.reduced-opacity,
+.card-vid.first-card p.role.reduced-opacity,
+.card-vid.first-card p.name.reduced-opacity{
+  opacity: 0.2; 
+}
+
+
+*
+// Reduce the height and apply border radius for non-focused cards //
+.card-vid.focused-card .card-top > img {
+  width: 90%;
+  object-fit: cover;
+  height: auto; 
+  border-radius: 30px; 
+  transition: height 0.8s ease, border-radius 0.8s ease; 
+}
+
+
+// Reduce the height and apply border radius for non-focused cards //
+.card-vid:not(.focused-card) .card-top > img {
+  width: 90%;
+  object-fit: cover;
+  height: 460px; 
+  border-radius: 40px; 
+  transition: height 0.8s ease, border-radius 0.8s ease; 
+}
+
+
+
+
+
+
+
+
+
+

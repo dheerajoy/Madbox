@@ -1,0 +1,89 @@
+
+.fixedfooter{
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.100);
+
+
+    padding: 4%;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+
+.mbLogo{
+    width: 9rem;
+    height: 1.5rem;
+    
+}
+
+
+
+#Fpic , #Spic{
+    width: 34px;
+    height: 45px;
+}
+
+
+.email{
+    padding: 25px;
+}
+
+.staytuned{
+    padding-bottom: 15px;
+}
+
+#emailBox{
+    border-radius: 30px;
+    border-width: 1px;
+   
+    border-style: solid;
+    border-color: gray;
+    border-image: initial;
+    padding: 1rem;
+
+    width: 250px;
+    height: 60px;
+
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+.logo {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 195px; /* Adjust the left position as needed */
+    transform: translateY(-66%);
+    pointer-events: none; 
+    color: #4c4c4c; 
+}
+
+
+
+.icons{
+    padding-top: 10px;
+    // border: 2px solid red;
+    
+    .icon{
+        // border: 2px solid red;
+        // padding:20px;
+        color: #000;
+        font-size: 40px;
+        padding: 0 5px;
+        // justify-content: space-between;
+    }
+}

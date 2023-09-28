@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap');
+
+
+.story{
+    position: relative;
+}
+#tag{
+    text-align: center;
+    color: linear-gradient(#FF3B8F,#FFBB09);
+    p{
+        padding-top: 50px;
+        font-size: 240px;
+    
+        font-family: "Changa";
+        line-height: 0.7em;
+        // letter-spacing: 0px;
+        background: linear-gradient(to bottom, #FF3B8F 0%, #FFBB09 100%) ;
+        background-clip: text ;
+        -webkit-text-fill-color: transparent !important;
+        
+
+        // position: relative;
+        z-index: -1;
+    }
+}
+
+#ourStory{
+    width: 90%;
+    height: 100%;
+    padding-left: 10%;
+
+
+    
+    position: absolute;
+    top:90%;
+    left: 0;
+    z-index: 0;
+}
+
+
+
