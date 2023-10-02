@@ -13,6 +13,11 @@ const Header = () => {
     <nav>
         <img src={logo} />
         <main>
+          <div className='menu'>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         <ul>
           
           <li className="navitem" >

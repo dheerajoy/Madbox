@@ -17,7 +17,7 @@ const Values = () => {
                 <p>Game making is about exploration and facing uncertainty, together. High ambitions require humility about what we don’t know. That is why we have created an environment where our talents constantly support each other and where passion & learnings are shared.</p>
             </div>
                 <div data-aos="zoom-in" data-aos-duration="900" className='valuesPics'>
-                    <img src={first} className='rightValue' />
+                    <img src={first} className='rightValue1' />
                 </div>
             
         </div>
@@ -25,7 +25,7 @@ const Values = () => {
         <div className="secondcontent">
            
                 <div data-aos="zoom-in" data-aos-duration="900" className='valuesPics'>
-                    <img  src={second} className='leftValue'/>
+                    <img  src={second} className='leftValue1'/>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1100"  className='rightText'>
                     <h1 id='second_h1'>Learn Fast.</h1>
@@ -42,13 +42,13 @@ const Values = () => {
                 <p>At Madbox, anything should be said as long as it is thoughtfully shared. We believe that the delivery of feedback is as equally important as the message itself. This is our way to build a transparent culture, where everyone participates in both the celebrations and challenges of building a company together.</p>
                 </div> 
             <div data-aos="zoom-in" data-aos-duration="1300" className='valuesPics'>
-                <img src={third}  className='rightValue'/>
+                <img src={third}  className='rightValue2'/>
             </div>
         </div>
 
         <div className="fourthcontent">
             <div data-aos="zoom-in" data-aos-duration="1300" className='valuesPics'>
-                <img src={fourth} className='leftValue' />
+                <img src={fourth} className='leftValue2' />
             </div>  
             <div data-aos="fade-up" data-aos-duration="1500"  className='rightText'>
                 <h1 id='fourth_h1'>Shape <br/>(y)our <br/>Journey.</h1>

@@ -6,7 +6,7 @@ section{
 
 .card{
   width: calc(33% - 20px); 
-  // max-width: 360px;
+  max-width: 600px;
   // height: 95%;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,29 @@ section{
   margin: 10px;
   
 }
+
+@media screen and (min-width: 1531px) {
+  .card-container1 {
+      margin: 0 auto; 
+      max-width: 100%; 
+  }
+}
+
+@media screen and (max-width: 1235px) {
+  .card {
+    width: 500px;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .card-container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .card:hover {
-    transform: scale(1.06);
+  transform: scale(1.06);
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.08);
 
   }
@@ -35,7 +56,7 @@ section{
   flex-wrap: wrap;
   justify-content: center;
   gap: -5px;
-  margin: 20px;
+  margin: 20px auto;
 
 
 }
@@ -54,6 +75,7 @@ section{
   line-height: 1.1;
   // font-family: "Work Sans";
   font-weight:bolder;
+  font-family: 'Work sans';
   background: linear-gradient(to right, #AB02FF 0%, #40ABFF 100%) ;
   background-clip: text ;
   -webkit-text-fill-color: transparent ;
@@ -62,7 +84,7 @@ section{
 .pcard{
   font-family: "Work Sans";
   font-size: 18px;
-  margin-top: 10%;
+  // margin-top: 10%;
   letter-spacing: 1px;
   font-weight: 400; 
   overflow: hidden; 
@@ -77,7 +99,8 @@ section{
 
 
 .span{
-  font-weight:lighter;
+  font-weight:300;
+  font-family: "Work Sans";
   margin-top: 10%;
   padding: 4px 8px 4px;
 

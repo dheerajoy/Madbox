@@ -1,23 +1,81 @@
 .values{
-    width: 100%;
+    // width: 100%;
     margin-top: 10%;
 }
 
 
-// .valuesPics{
-   
-//     border: 2px solid red;
-// }
-
-
-.rightValue{
-    width: 620px;
-    height: 620px;
+.rightValue1,.rightValue2, .leftValue1,.leftValue2{
+    width: 680px;
+    height: 680px;
 }
 
-.leftValue{
-    width: 620px;
-    height: 620px;
+
+
+@media screen and (max-width: 1230px) {
+    .rightValue1,.rightValue2, .leftValue1,.leftValue2 {
+        width: 550px; 
+        height: 550px; 
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .values {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 10%;
+    }
+
+    .values .firstcontent,
+    .values .thirdcontent {
+        display: flex;
+        flex-direction: column-reverse; 
+        margin-bottom: 5%;
+        padding: 0;
+    }
+
+    .values .secondcontent,
+    .values .fourthcontent {
+        display: block;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+
+    .values .leftText, 
+    .values .rightText {
+        margin: 0;
+    }
+
+    .rightValue1,.rightValue2, .leftValue1,.leftValue2 {
+        width: 700px;
+        height: 700px; 
+        padding: 50px;
+        width: 100%;
+        height: auto  ;
+    }
+
+    .firstcontent h1,
+    .thirdcontent h1,
+    .secondcontent h1,
+    .fourthcontent h1{
+        padding-left: 50px;
+    }
+    
+    .firstcontent p,
+    .thirdcontent p,
+    .secondcontent p,
+    .fourthcontent p{
+        padding-left: 50px;
+    }
+}
+
+
+
+@media screen and (min-width: 1441px) {
+    .values {
+        width: 70%;
+        margin: 5% auto; 
+    }
 }
 
 
