@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import '../Header/header.scss'
 
 import { NavLink } from 'react-router-dom'
@@ -8,17 +8,23 @@ import logo from './logo/logo1.jpeg'
 
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <div>
     <nav>
-        <img src={logo} />
+        <img src={logo} alt='logo'/>
         <main>
-          <div className='menu'>
+        <div className={`menu ${menuOpen ? 'open' : ''}`} onClick={handleMenuClick}>
             <span></span>
             <span></span>
             <span></span>
           </div>
-        <ul>
+        <ul className={menuOpen ? "open" : "" }>
           
           <li className="navitem" >
             <NavLink to = {"/Our Games"} className='link'>Our Games</NavLink>
@@ -40,4 +46,6 @@ const Header = () => {
 }
 
 export default Header;
+
+
 

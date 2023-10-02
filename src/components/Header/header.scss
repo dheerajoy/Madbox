@@ -99,7 +99,66 @@ nav {
   
  
   
-nav main .menu{
+.menu{
+    display: none;
     position: absolute;
-    top
+    top: 1.5rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 1.3rem;
+
 }
+nav .menu span{
+    height: 0.2rem;
+    width: 80%;
+    background-color: #000 ;
+    border-radius: 0.1rem;
+}
+
+@media (max-width:970px){
+    .menu {
+        display: flex;
+    }
+
+    nav {
+        // flex-direction: column;
+        align-items: start;
+        padding: 25px 40px;
+    }
+
+    nav ul {
+        display: none !important;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+
+    }
+    nav ul.open{
+        display: flex !important ;
+    }
+}
+
+/* ... other styles ... */
+
+.menu {
+    /* ...existing styles */
+    &.open {
+      span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+      }
+      span:nth-child(2) {
+        display: none;
+      }
+      span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+      }
+    }
+  }
+  
+
+
+
+
+

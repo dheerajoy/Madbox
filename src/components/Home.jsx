@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <>
-
+    <div className='container'>
     <Headroom   className="headroom" 
         style={{transition: 'box-shadow 0.9s ease ',}} >
         <Header/>
@@ -129,7 +129,7 @@ const Home = () => {
 
 
     <NavFooter/>
-
+    </div>
    </>
   )
 }
