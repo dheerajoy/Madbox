@@ -37,5 +37,15 @@
     z-index: 0;
 }
 
-
+@media screen and (max-width: 950px) {
+    .story p{
+        font-size: 90px !important;
+    }
+    .story img{
+        width: 110% !important;
+        height: auto;
+        padding-right: 15%;
+        padding-left: 0;
+    }
+}
 

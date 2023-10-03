@@ -351,3 +351,47 @@ body{
     letter-spacing: -0.5px; /* Adjust the font size as per your design */
   }
 }
+@media screen and (max-width: 940px) {
+  .ourStoryContent p{
+    font-size: 15px;
+    font-family: 'Work sans';
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .ourStoryContent p{
+    font-size: 12px;
+    font-family: 'Work sans';
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .bigtext p{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Work sans';
+    letter-spacing: -2px;
+  }
+
+  .smalltext p {
+    font-size: 12px !important;
+    
+    letter-spacing: -0.5px; /* Adjust the font size as per your design */
+  }
+}
+@media screen and (max-width: 435px) {
+  .bigtext p{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Work sans';
+    letter-spacing: -2px;
+    margin: 0 10%;
+
+  }
+
+  .smalltext p {
+    font-size: 12px !important;
+    margin: 0 10%;
+    letter-spacing: -0.5px; /* Adjust the font size as per your design */
+  }
+}

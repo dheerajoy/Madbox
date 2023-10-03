@@ -70,3 +70,73 @@
 }
 
 }
+@media screen and (max-width: 608px){
+
+    
+.firstrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#pic1{
+    width: 480px;
+    height: auto; 
+    border-radius: 25px;
+}
+#galleryvideo{
+  
+    width: 480px;
+    max-width: 580px;
+    max-height: 430px;
+    border-radius: 25px;
+}
+.secondrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.secondRowPics{
+    width:480px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+}
+@media screen and (max-width: 490px){
+
+    
+.firstrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#pic1{
+    width: 300px;
+    height: auto; 
+    border-radius: 25px;
+}
+#galleryvideo{
+  
+    width: 300px;
+    max-width: 580px;
+    max-height: 300px;
+    border-radius: 25px;
+}
+.secondrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.secondRowPics{
+    width:300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+}

@@ -17,6 +17,12 @@
         height: 550px; 
     }
 }
+@media screen and (max-width: 900px) {
+    .rightValue1,.rightValue2, .leftValue1,.leftValue2 {
+        width: 510px; 
+        height: 510px; 
+    }
+}
 
 
 @media screen and (max-width: 1150px) {
@@ -71,10 +77,43 @@
 
 
 
-@media screen and (min-width: 1441px) {
+@media screen and (max-width: 939px) {
     .values {
-        width: 70%;
-        margin: 5% auto; 
+        width: 80%;
+        margin: 2% auto; 
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    .leftText h1,
+    .rightText h1 {
+        font-size: 40px !important;
+        letter-spacing: -2px;
+    }
+
+    .leftText p,
+    .rightText p {
+        font-size: 13px !important;
+        letter-spacing: -2px;
+        font-weight: 500;
+    }
+    .firstcontent h1,
+    .thirdcontent h1,
+    .secondcontent h1,
+    .fourthcontent h1{
+        padding-left: 10px;
+    }
+    
+    .firstcontent p,
+    .thirdcontent p,
+    .secondcontent p,
+    .fourthcontent p{
+        padding-left: 10px;
+    }
+    .rightValue1,.rightValue2, .leftValue1,.leftValue2 {
+        padding: 5px;
+        width: 100%;
+        height: auto  ;
     }
 }
 

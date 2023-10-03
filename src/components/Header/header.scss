@@ -140,10 +140,10 @@ nav .menu span{
     }
 }
 
-/* ... other styles ... */
+
 
 .menu {
-    /* ...existing styles */
+    
     &.open {
       span:nth-child(1) {
         transform: rotate(45deg) translate(6px, 6px);
@@ -161,4 +161,29 @@ nav .menu span{
 
 
 
-
+  @media (max-width:880px){
+    .menu{
+        
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+       
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2rem;
+        height: 1rem;
+    
+    }
+    nav .menu span{
+        height: 0.2rem;
+        width: 75%;
+        background-color: #000 ;
+        border-radius: 0.1rem;
+    }
+      
+    nav img {
+        width: 100px;
+        height: 19px;
+        
+    }
+}

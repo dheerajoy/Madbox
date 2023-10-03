@@ -44,6 +44,44 @@ section{
     align-items: center;
   }
 }
+@media screen and (max-width: 551px) {
+  .card {
+    width: 400px;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .card-container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .card {
+    width: 280px;
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  .card-container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .button{
+  
+    display: flex;
+    padding: 1rem 1rem;  
+  
+    margin-bottom: 30px;
+    
+  }
+  .card .button .btn{
+   
+    padding: 15px 50px;
+    
+  }
+
+}
 
 .card:hover {
   transform: scale(1.06);
