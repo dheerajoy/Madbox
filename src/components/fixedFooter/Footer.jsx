@@ -3,8 +3,7 @@
 
 // import logo from '../fixedFooter/logos/logo1.jpeg'
 // import france from '../fixedFooter//logos/France.jpg'
-// import spain from '../fixedFooter//logos/spain.jpg' 
-
+// import spain from '../fixedFooter//logos/spain.jpg'
 
 // import{BiLogoDiscord} from 'react-icons/bi';
 // import{BiLogoFacebookSquare} from 'react-icons/bi';
@@ -15,10 +14,9 @@
 // import{BiLogoPlayStore} from 'react-icons/bi';
 // import{BiSolidChevronRightCircle} from 'react-icons/bi';
 
-
 // const Footer = () => {
 //   return (
-    
+
 //         <div className='fixedfooter'>
 //             <div>
 //                 <div>
@@ -65,8 +63,7 @@
 //                     <input id='emailBox' type='email' placeholder='Enter your email' />
 //                 </div>
 
-            
-//                 <div className="icons">      
+//                 <div className="icons">
 //                     <BiLogoDiscord className="icon"/>
 //                     <BiLogoFacebookSquare className="icon"/>
 //                     <BiLogoInstagram className="icon"/>
@@ -82,8 +79,8 @@
 
 // export default Footer
 
-import React, { useState, useEffect } from 'react';
-import '../fixedFooter/footer.scss';
+import React, { useState, useEffect } from "react";
+import "../fixedFooter/footer.scss";
 import {
   BiLogoDiscord,
   BiLogoFacebookSquare,
@@ -93,11 +90,11 @@ import {
   BiLogoApple,
   BiLogoPlayStore,
   BiSolidChevronRightCircle,
-} from 'react-icons/bi';
+} from "react-icons/bi";
 
-import logo from '../fixedFooter/logos/logo1.jpeg';
-import france from '../fixedFooter/logos/France.jpg';
-import spain from '../fixedFooter/logos/spain.jpg';
+import logo from "../fixedFooter/logos/logo1.jpeg";
+import france from "../fixedFooter/logos/France.jpg";
+import spain from "../fixedFooter/logos/spain.jpg";
 
 const Footer = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -107,21 +104,21 @@ const Footer = () => {
       setScreenWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   return (
-    <div className='fixedfooter'>
+    <div className="fixedfooter">
       <div>
         <div>
-          <img className='mbLogo' src={logo} alt='logo' />
+          <img className="mbLogo" src={logo} alt="logo" />
         </div>
         {screenWidth >= 954 && (
-          <div className='copyright'>
+          <div className="copyright">
             <p>Copyright © 2021 MadBox.</p>
             <p>all rights reserved</p>
           </div>
@@ -129,10 +126,10 @@ const Footer = () => {
       </div>
       {screenWidth >= 954 && (
         <>
-          <div className='location1'>
-            <div className='france'>
-              <div className='flagFrance'>
-                <img id='Fpic' src={france} alt='France flag' />
+          <div className="location1">
+            <div className="france">
+              <div className="flagFrance">
+                <img id="Fpic" src={france} alt="France flag" />
               </div>
               <div>
                 <h4>Madbox Paris</h4>
@@ -141,10 +138,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className='location2'>
-            <div className='spain'>
-              <div className='flagSpain'>
-                <img id='Spic' src={spain} alt='Spain flag' />
+          <div className="location2">
+            <div className="spain">
+              <div className="flagSpain">
+                <img id="Spic" src={spain} alt="Spain flag" />
               </div>
               <div>
                 <h4>Madbox Barcelona</h4>
@@ -156,26 +153,26 @@ const Footer = () => {
         </>
       )}
 
-      <div className='email'>
-        <div className='staytuned'>
+      <div className="email">
+        <div className="staytuned">
           <h4>Stay tuned!</h4>
         </div>
 
-        <div className='input-container'>
-          <i className='logo'>
+        <div className="input-container">
+          <i className="logo">
             <BiSolidChevronRightCircle />
           </i>
-          <input id='emailBox' type='email' placeholder='Enter your email' />
+          <input id="emailBox" type="email" placeholder="Enter your email" />
         </div>
 
-        <div className='icons'>
-          <BiLogoDiscord className='icon' />
-          <BiLogoFacebookSquare className='icon' />
-          <BiLogoInstagram className='icon' />
-          <BiLogoTwitter className='icon' />
-          <BiLogoLinkedinSquare className='icon' />
-          <BiLogoApple className='icon' />
-          <BiLogoPlayStore className='icon' />
+        <div className="icons">
+          <BiLogoDiscord className="icon" />
+          <BiLogoFacebookSquare className="icon" />
+          <BiLogoInstagram className="icon" />
+          <BiLogoTwitter className="icon" />
+          <BiLogoLinkedinSquare className="icon" />
+          <BiLogoApple className="icon" />
+          <BiLogoPlayStore className="icon" />
         </div>
       </div>
     </div>
