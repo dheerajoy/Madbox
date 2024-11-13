@@ -1,7 +1,5 @@
 import React , {useEffect} from 'react';
 import video from '../assets/firstvideo.mp4'
-
-
 import Header from './Header/Header';
 import Headroom from 'react-headroom';
 import Data from './cards/Data';
@@ -14,8 +12,6 @@ import Powerben from './power/Powerben';
 import Ourstory from './ourstory/Ourstory';
 import Footer from './fixedFooter/Footer'
 import NavFooter from './stickyFooter/NavFooter';    
-
-
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
@@ -66,9 +62,7 @@ const Home = () => {
 
 
     <VideoCarousel/>
-
     <Gallery/>
-
     <Rating/>
 
     <div id='section3' className="ourvalues">
@@ -82,7 +76,6 @@ const Home = () => {
     </div>
 
     <Values/>
-
     <Play/>
 
     <div id='section4' className="powerup">
@@ -97,7 +90,6 @@ const Home = () => {
     </div>
 
     <Powerben/>
-
     <Ourstory/>
 
     <div className='discover'>
@@ -126,8 +118,6 @@ const Home = () => {
 
     
     <Footer/>
-
-
     <NavFooter/>
     </div>
    </>
